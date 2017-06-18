@@ -3,7 +3,6 @@
 @blue: #242D3C;
 
 @import url('https://fonts.googleapis.com/css?family=News+Cycle:400,700');
-@import url('https://fonts.googleapis.com/css?family=Rubik');
 
 html, body {
 	padding: 0px 40px 0px 40px;
@@ -29,6 +28,10 @@ box-shadow: 0px 5px 18px -2px rgba(0,0,0,0.75);
 	nav {
 		font-family: 'News Cycle', sans-serif;
 		background-color: white;
+		
+		// .brand-logo {
+		// 	font-family: 'Lobster', cursive;
+		// }
 
 		a {
 		 	color: black;
@@ -51,19 +54,21 @@ box-shadow: 0px 5px 18px -2px rgba(0,0,0,0.75);
 		background-size: cover;
 		color: white;
 		margin-bottom: 0px;
+		padding-top: 20vh;
 
    		.header-text {
-			// border: 1px solid black;
 			text-align: left;
 
-   			h3 {
+   			h3, h5 {
    				margin-top: 0px;
+   				margin-bottom: 0px;
    				text-align: center;
    				font-family: 'News Cycle', sans-serif;
    				font-weight: bold;
-   				text-transform: uppercase;
-   				text-shadow: 2px 2px 5px rgba(150, 150, 150, 1);
-   				top: 50%;
+   				// text-shadow: 2px 2px 5px rgba(150, 150, 150, 1);
+   				background-color: rgba(0, 0, 0, 0.6);
+   				width: fit-content;
+   				margin: 0 auto;
    			}
    			
    		}
@@ -77,10 +82,11 @@ box-shadow: 0px 5px 18px -2px rgba(0,0,0,0.75);
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
-		//border: 1px solid black;
-		//height: 50vh;
-		margin-bottom: 50px;
 		color: black;
+
+		.row {
+			margin-bottom: 0px;
+		}
 	}
 
 	.margen {
@@ -131,4 +137,11 @@ box-shadow: 0px 5px 18px -2px rgba(0,0,0,0.75);
 
 .nav-wrapper {	
 	color: black;
+}
+/*FIN LUIS QUE LE LE VALIO VERGS Y NO USO LESS*/
+
+#proyectos {
+	margin-top: 0px;
+	height: 30em;
+	background-color: red;
 }
