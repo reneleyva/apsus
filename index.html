@@ -8,6 +8,7 @@
 	<!-- Compiled and minified CSS -->
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
   	<link rel="stylesheet" href="css/index-style.css">	 
+  	<link rel="stylesheet" href="css/style.css">	 
 </head>
 <body>
 <!-- INicia elemtos -->
@@ -103,7 +104,7 @@
 				<div class="proyecto col s4">
 					<div class="row wrap">
 						<div class="imagen-proyecto">
-							<img class="responsive-img" src="img/nerdflix.jpg" alt="">
+							<img class="responsive-img" src="img/nerdflix.JPG" alt="">
 						</div>
 						<div class="descripcion">
 							<p><b>NerdFlix</b></p>
@@ -116,7 +117,7 @@
 				<div class="proyecto col s4">
 					<div class="row wrap">
 						<div class="imagen-proyecto">
-							<img class="responsive-img" src="img/promos.jpg" alt="">
+							<img class="responsive-img" src="img/promos.JPG" alt="">
 						</div>
 						<div class="descripcion">
 							<p><b>Promos</b></p>
@@ -138,11 +139,44 @@
 						</div>
 					</div>
 				</div>
-
-
+			</div>
+			
 		</div>
+		<div  id="formulario"> 
+			<div class="row" id = "formulario-dentro">
+					<div>
+						<h2>¡Registrate!</h2>
+					</div>
+				    <form class="col s12">
+				      <div class="row">
+				        <div class="input-field col s6">
+				          <input  id="first_name" type="text" class="validate">
+				          <label for="first_name">Nombre</label>
+				        </div>
+				        <div class="input-field col s6">
+				          <input id="last_name" type="text" class="validate">
+				          <label for="last_name">Apellido(s)</label>
+				        </div>
+				      </div>
+				      <div class="row">
+				        <div class="input-field col s12">
+				          <input id="email" type="email" class="validate">
+				          <label for="email">Email</label>
+				        </div>
+				      </div>
+				     <div class="row">
+			          <div class="input-field col s12">
+			            <textarea id="textarea1" class="materialize-textarea" data-length="120"></textarea>
+			            <label for="textarea1">Cuentanos tus ideas</label>
+			          </div>
+			         </div>
+				      <a class="waves-effect waves-light btn"><i class="material-icons right">keyboard_arrow_right</i>Enviar</a>
+				    </form>
+  				</div>
+			</div>
+		</div>
+	</div>
 
-</div>
 <!-- End elementos -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
  <!-- Compiled and minified JavaScript -->
